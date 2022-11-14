@@ -1,14 +1,11 @@
 # recipes_project
 
-Chức năng:
-
-1. Nhận 1 recipe từ client dưới dạng JSON và lưu vào database.
-
-2. Đăng ký xác thực người dùng
-
-3. Cho phép sửa xoá recipe đối với người dùng xác thực
-
-4. Cho phép tìm kiếm recipe theo tên hoặc category đối với người dùng
+Description: 
+-	Github: github.com/vanphuoc3012/recipes_project
+-	The program is a web service based on Spring Boot that allows storing recipes in database, retrieving, updating and deleting recipes. Used JSON format to transfer data from server.
+-	Allowing retrieve recipes by their category/name and update to the database.
+-	Only allow registered user with the correct login and password to use the service. Restrict the deletion and updating to the recipe author only.
+Environment: Java, Spring Boot, Spring DAO, Spring Validation, Spring Security, RESTful API, Log4j, HTTP, JSON, SQL, Intellij IDEA.
 
 
-Công nghệ sử dụng: Java, Rest API, Spring Boot, Spring Data JPA, Sping Security, Spring Validation
+![recipe](https://user-images.githubusercontent.com/37379686/201580548-80af4dcf-721b-4933-9db4-bfa649392c06.png)
